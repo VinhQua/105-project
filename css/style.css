@@ -1,16 +1,113 @@
-section {
-	width: 800px;
-	margin: 100px auto;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Permanent+Marker&display=swap');
+
+/*Universal Styles*/
+*{
+   /* border: .1rem solid red;*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;   
 }
-section h1,
-section p {
-	text-align: center;
-	color: #454545;
+/*Global Styles*/
+body{
+    background:#FFFFFF ;
+    font-size:1.25rem ;
+    color: #3B3B3B;
 }
-section h1 {
-	font: 32px 'Open Sans';
-	font-weight: bold;
+h1{
+    font-size:1.875rem ;
+    color:#FFFFFF ;
+    text-transform: uppercase;
 }
-section p {
-	font: 16px 'Open Sans';
+h2{
+    font-size: 2.375rem;
+    line-height:2.375rem ;
+    margin-top: .1rem;
+    margin-bottom: 1.7rem;
+    
 }
+strong{
+    font-weight: 750;
+}
+h3{
+    text-transform: uppercase;
+    font-size:1.25rem ;
+    font-weight: 800;
+   
+}
+h4{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.125rem;
+    color:#FFFFFF ;
+}
+span{
+    font-size: 1.125rem;
+    padding: .2rem;
+    background:#FFF44F ;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 3rem;
+    padding: .2rem .7rem;
+    
+  
+}
+
+/*Main*/
+main{
+    background: url('../img/background.png');
+    width: 75rem;
+    margin: 2rem auto;
+    border: 1rem solid rgb(241, 238, 238);
+    text-align: center;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+}
+.first-row,
+.second-row,
+.third-row{
+    padding: 2rem;
+    width: 25rem;
+    
+}
+
+.first-row,
+.third-row{
+    height: 13.125rem;
+}
+.second-row{
+    height:25rem ;
+    padding: 4rem 2rem;
+}
+.corner{
+    background:#FFFFFF ;
+}
+
+#top-left,
+#middle-left{
+    text-align: left;
+}
+
+#middle-right,
+#bottom-right{
+    text-align: right;
+}
+
+#top-right,
+#bottom-left {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+#center{
+    background: #3B3B3B;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
